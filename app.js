@@ -30,6 +30,6 @@ client.on("message", async message => {
         .setThumbnail("https://i.imgur.com/ZmWM1UT.png")
         .setColor("#ff0000")
         .setFooter("© NBW")
-        message.channels.send(invasao)   
+      message.channel.send("@everyone", invasao)
     }
 });
