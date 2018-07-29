@@ -9,7 +9,7 @@ client.on("ready", () => {
 
 });
 
-client.login(process.env.slatoken);
+client.login(process.env.slaTOKEN);
 
 client.on("message", async message => {
 
