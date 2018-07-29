@@ -25,8 +25,7 @@ client.on("message", async message => {
         const command = args.shift().toLowerCase();
         const invasao = new Discord.RichEmbed()
         .setAuthor(`Invasão!!!`)
-        .setDescription(`*A base da facção está sendo atacada!* 
-    **Corra para protege-la!.`)
+        .setDescription(`*A base da facção está sendo atacada!*\n**Corra para protege-la!.**`)
         .setThumbnail("https://i.imgur.com/ZmWM1UT.png")
         .setColor("#ff0000")
         .setFooter("© NBW")
